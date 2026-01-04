@@ -38,4 +38,4 @@ app.use(bot.webhookCallback("/api/bot"));
 app.get("/", (req,res) => res.send("بوت تلجرام يعمل!"));
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-bot.telegram.setWebhook(`https://YOUR_VERCEL_URL/api/bot`);
+bot.telegram.setWebhook(`https://mybot-liart-alpha.vercel.app/api/bot`);
